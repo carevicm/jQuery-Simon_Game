@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: #022B5A; 
+  font-family: 'Lato', sans-serif;
+  color: #EAEDED;
+  background: linear-gradient(45deg, #3498DB, #9B59B6, #E74C3C);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#level-title {
+  font-family: 'Lato', cursive;
+  font-size: 5rem; 
+  margin: 5%;
+  color: #F39C12;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: block;
+  width: 60%; 
+  margin: auto;
+}
+
+.btn {
+  margin: 20px; 
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 8px solid #2C3E50;  
+  border-radius: 20%;
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.btn:hover {
+  transform: scale(1.08); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.red {
+  background: linear-gradient(45deg, #FF4136, #E8271E); 
+}
+
+.green {
+  background: linear-gradient(45deg, #2ECC40, #27AE60);
+}
+
+.blue {
+  background: linear-gradient(45deg, #0074D9, #0057A4);
+}
+
+.yellow {
+  background: linear-gradient(45deg, #FFDC00, #F5BC00);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: rgb(123, 122, 122);
+}
+.game-over {
+  background: linear-gradient(45deg, #E74C3C, #9B59B6, #3498DB);  
+  box-shadow: 0 0 50px rgba(231, 76, 60, 0.8);
+}
